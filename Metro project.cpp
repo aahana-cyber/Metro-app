@@ -5,23 +5,23 @@ vector<pair<int, float>> adj[1000];
 int E = 22;
 unordered_map<int, string> Stations = {
 
-    {1, "Mihan Khapri"},
+    {1, "Bhatapara"},
     // 3
     {2, "New Airport"},
     // 2.8
     {3, "Airport South"},
     //.9
-    {4, "Nagpur Airport"},
+    {4, "Raipur Airport"},
     // 1.1
     {5, "Ujjwal Nagar"},
     // .850
     {6, "JP Nagar"},
     // 2.5
-    {7, "Chhatrapati Sq"},
+    {7, "Bilaspur"},
     // 1.5
-    {8, "Ajni Square"},
+    {8, "Nipaniya"},
     // 1.1
-    {9, "Rahate Colony"},
+    {9, "Bhilai"},
     // 1
     {10, "Congress Ngr"},
     // 1.7
@@ -31,9 +31,9 @@ unordered_map<int, string> Stations = {
     //.800
     {13, "Kasturchand Prk"},
     // 0.550
-    {14, "Jhansi Rani"},
+    {14, "Indira Gandhi"},
     // 0.9
-    {15, "Inst of Engg"},
+    {15, "NIT Raipur"},
     //.9
     {16, "Shankar Nagar"},
     // 1.2
@@ -43,7 +43,7 @@ unordered_map<int, string> Stations = {
     // 2.1
     {19, "Subhas Ngr"},
     // 3
-    {20, "Rachna Ringrd"},
+    {20, "Ringroad"},
     // 2.2
     {21, "Vasudev Nagar"},
     // 0.950
@@ -86,7 +86,7 @@ void Display_Stations()
 void makeGraph()
 {
     vector<vector<float>> list = {
-        // Mihan To Kasturchand
+        // Bhatapara To Kasturchand
         {1, 2, 3},
         {2, 3, 2.8},
         {3, 4, 0.9},
